@@ -10,7 +10,7 @@
 
 
 
-<div class="grid grid-row gap-6 w-[1024px] mx-auto px-[100px] justify-normal">
+<div class="grid grid-row gap-6 w-[1024px] mx-auto h-screen px-[100px] justify-normal">
     <div class="flex  flex-row gap-10 rounded-3xl items-center justify-center p-10 w-full">
         <div class="image w-[200px] h-[200px] bg-slate-800 rounded-[31px] border border-solid border-white "></div>
         <div class=' w-[50%]'>

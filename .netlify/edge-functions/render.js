@@ -5204,7 +5204,7 @@ var init__2 = __esm({
   ".svelte-kit/output/server/nodes/1.js"() {
     index2 = 1;
     component2 = async () => component_cache2 ?? (component_cache2 = (await Promise.resolve().then(() => (init_error_svelte(), error_svelte_exports))).default);
-    imports2 = ["_app/immutable/nodes/1.Xq44OI8h.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/a9s_Je2Y.js", "_app/immutable/chunks/BmMq1TOt.js", "_app/immutable/chunks/DQvBfhtt.js"];
+    imports2 = ["_app/immutable/nodes/1.COtXUDrn.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/a9s_Je2Y.js", "_app/immutable/chunks/BRtw6A_C.js", "_app/immutable/chunks/DQvBfhtt.js"];
     stylesheets2 = [];
     fonts2 = [];
   }
@@ -13899,7 +13899,7 @@ var init_page_svelte = __esm({
           avatar: "/works.svg"
         }
       ];
-      return `<section class="w-[1024px] h-fit mx-auto p-10 justify-center items-center flex-col flex"><h1 class="h1 mb-5 " data-svelte-h="svelte-n6ncpt">Nigerians who Design</h1> <p class="text-center" data-svelte-h="svelte-1pr1va2">Your Favourite Designers, their Pixels,  their Philosopy.</p> <a class="btn variant-filled my-5" href="/directory" data-svelte-h="svelte-1b2glav">See directory</a>  <div class="flex flex-cols min-h-fit w-full mt-10 gap-4">${each(designer, (data) => {
+      return `<section class="w-[1024px] h-fit mx-auto p-10 justify-center items-center flex-col flex"><h1 class="h1 mb-5 " data-svelte-h="svelte-n6ncpt">Nigerians who Design</h1> <p class="text-center" data-svelte-h="svelte-1pr1va2">Your Favourite Designers, their Pixels,  their Philosopy.</p> <a class="btn variant-filled my-5" href="/directory" data-svelte-h="svelte-1b2glav">See directory</a>  <div class="flex flex-cols min-h-fit mt-10 gap-4">${each(designer, (data) => {
         return `${designer.length > 0 ? `<div class="w-full h-fit"><a href="/directory"><div class="h-fit">${validate_component(MagicCard, "MagicCard").$$render(
           $$result,
           {
@@ -14063,7 +14063,7 @@ var init__3 = __esm({
   ".svelte-kit/output/server/nodes/2.js"() {
     index3 = 2;
     component3 = async () => component_cache3 ?? (component_cache3 = (await Promise.resolve().then(() => (init_page_svelte(), page_svelte_exports))).default);
-    imports3 = ["_app/immutable/nodes/2.B1VehKN4.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/a9s_Je2Y.js", "_app/immutable/chunks/Bd87CVZz.js", "_app/immutable/chunks/DQvBfhtt.js"];
+    imports3 = ["_app/immutable/nodes/2.BzwSU6Gi.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/a9s_Je2Y.js", "_app/immutable/chunks/Bd87CVZz.js", "_app/immutable/chunks/DQvBfhtt.js"];
     stylesheets3 = ["_app/immutable/assets/MagicCard.DxWaHxfu.css"];
     fonts3 = [];
   }
@@ -14340,7 +14340,7 @@ var options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "h1w8gn"
+  version_hash: "17s1m9f"
 };
 async function get_hooks() {
   let handle;
@@ -17930,7 +17930,7 @@ var manifest = (() => {
     assets: /* @__PURE__ */ new Set(["Avatar.png", "Frame 9.svg", "favicon.png", "fonts/AbrilFatface.ttf", "fonts/PlayfairDisplay-Italic.ttf", "fonts/Quicksand.ttf", "fonts/SpaceGrotesk.ttf", "github.svg", "works.svg"]),
     mimeTypes: { ".png": "image/png", ".svg": "image/svg+xml", ".ttf": "font/ttf" },
     _: {
-      client: { "start": "_app/immutable/entry/start.CDELTBjD.js", "app": "_app/immutable/entry/app.CyF4Vct_.js", "imports": ["_app/immutable/entry/start.CDELTBjD.js", "_app/immutable/chunks/BmMq1TOt.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/DQvBfhtt.js", "_app/immutable/entry/app.CyF4Vct_.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/a9s_Je2Y.js"], "stylesheets": [], "fonts": [], "uses_env_dynamic_public": false },
+      client: { "start": "_app/immutable/entry/start.Bvg2KbFX.js", "app": "_app/immutable/entry/app.C_g_cuyr.js", "imports": ["_app/immutable/entry/start.Bvg2KbFX.js", "_app/immutable/chunks/BRtw6A_C.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/DQvBfhtt.js", "_app/immutable/entry/app.C_g_cuyr.js", "_app/immutable/chunks/DnX5n_Gx.js", "_app/immutable/chunks/a9s_Je2Y.js"], "stylesheets": [], "fonts": [], "uses_env_dynamic_public": false },
       nodes: [
         __memo(() => Promise.resolve().then(() => (init__(), __exports))),
         __memo(() => Promise.resolve().then(() => (init__2(), __exports2))),
